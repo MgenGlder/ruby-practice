@@ -12,3 +12,9 @@ print c
 a.inject do |sum,x|      # Kind of similar to the 'reduce' function of JavaScript
   sum + x
 end
+
+kunle = [2, 4, 8]
+kunle2 = kunle.map { |x| x * 2 }
+print kunle2
+
+# Note, the map function is not in place- it creates a new array and applies the mapping to that.
