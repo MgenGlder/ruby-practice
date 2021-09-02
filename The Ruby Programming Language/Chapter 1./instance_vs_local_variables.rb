@@ -8,8 +8,7 @@ module MainGuy
         @args = args # Without it, they're called and considered, local variables.
             # validate_args  <-- if you wanted to call a function this way, you could
             # They don't always need to have () if they don't have any parameters
-        end
+      end
     end
   end
 end
-
