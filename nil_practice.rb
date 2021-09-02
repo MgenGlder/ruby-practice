@@ -5,5 +5,6 @@ def if_nill(attributes = {})
 end
 
 if_nill({ a: 1, b: 2 })
+if_nill()
 
 # Can also create objects using { "a" => 1, "b" => 2 }
