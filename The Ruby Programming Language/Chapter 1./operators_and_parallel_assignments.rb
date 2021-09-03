@@ -12,3 +12,5 @@ puts y
 x, y = 1, 2     
 a, b = b, a
 x, y, z = [1, 2, 3]
+
+puts x, y, z # Can pass multiple paramters to Ruby puts
