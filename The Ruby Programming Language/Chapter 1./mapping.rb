@@ -7,6 +7,15 @@ class String
       
       return splitArray.join(' ')
     end
-  end
+end
 
   # Note: In Ruby, the map function doesn't mutate, it creates a new Array by default. Use the ! to make it destructive and mutative.
+
+
+class String
+    def toJadenCase
+        self.split.map(&:capitalize).join(' ')
+    end
+end
+
+# Note: you don't need 'self' all the time, map can be passed & as a proc
