@@ -4,6 +4,8 @@ a.each do |elt|   # each is an iterator. The block has parameter elt
   print elt + 1 # Prints "4321"
 end             # This block was delimited with do/end instead of {}
 
+b = a.map{|x| x**x}.uniq # uniq removes all duplicate elements and retains all unique elements in an array.
+b & b                    # You can also return the intersection of itself, this also deletes duplicates of arrays.
 a = [1, 2, 3, 4]         # Start with an array
 b = a.map{|x| x*x}       # Square elements: b is [1, 4, 9, 16]
 print b
