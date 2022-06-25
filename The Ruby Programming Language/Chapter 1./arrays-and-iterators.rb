@@ -8,6 +8,9 @@ b = a.map{|x| x**x}.uniq # uniq removes all duplicate elements and retains all u
 b & b                    # You can also return the intersection of itself, this also deletes duplicates of arrays.
 a = [1, 2, 3, 4]         # Start with an array
 b = a.map{|x| x*x}       # Square elements: b is [1, 4, 9, 16]
+b = a.map do |x|         # You can also use the blocked ruby iterator too!
+  # do some stuff        # It takes time though
+end                      # Slowly and surely, always.
 print b
 c = a.select{|x| x%2==0} # Select even elements: c is [2, 4]
 print c
