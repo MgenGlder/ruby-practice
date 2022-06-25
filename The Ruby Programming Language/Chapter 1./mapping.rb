@@ -9,6 +9,9 @@ class String
     end
 end
 
+# Take a string that is a sentence and capitalize every word in it.
+some_string.split(" ").map(&:capitalize).join(" ")
+
   # Note: In Ruby, the map function doesn't mutate, it creates a new Array by default. Use the ! to make it destructive and mutative.
 
 
