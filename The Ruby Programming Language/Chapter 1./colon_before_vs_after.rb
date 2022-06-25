@@ -8,5 +8,8 @@ thing2 = { stuff: 'some string' }   # This is a mapping symbol, in Ruby it's
 print thing
 print thing2
 
+thing3 = :thing2
+thing4 = { stuff: 'some other string' }
+
 # A bit of a strange, and somewhat confusing thing. But we're getting there soon enough. 
-# Times practiced: 1
+# Times practiced: 2
