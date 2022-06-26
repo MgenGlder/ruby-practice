@@ -22,4 +22,4 @@ class String2
 end
 
 # Note: you don't need 'self' all the time, map can be passed & as a proc
-# Times practiced: 1
+# Times practiced: 2

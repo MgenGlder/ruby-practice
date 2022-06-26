@@ -10,6 +10,7 @@ print thing2
 
 thing3 = :thing2
 thing4 = { stuff: 'some other string' }
+thing5 = { stuff: 'some other other string' }
 
 # A bit of a strange, and somewhat confusing thing. But we're getting there soon enough. 
 # Times practiced: 2
