@@ -13,11 +13,13 @@ b = a.map do |x|         # You can also use the blocked ruby iterator too!
 end                      # Slowly and surely, always.
 print b
 c = a.select{|x| x%2==0} # Select even elements: c is [2, 4]
+# Note: Array::Filter is an alias for select, used in later versions
+
 print c
 a.inject do |sum,x|      # Kind of similar to the 'reduce' function of JavaScript
   sum + x
 end
-
+# Note: Array::Reduce is an alias for inject
 
 kunle = [2, 4, 8]
 kunle2 = kunle.map { |x| x * 2 }
