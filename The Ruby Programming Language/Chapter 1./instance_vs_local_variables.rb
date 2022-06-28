@@ -4,6 +4,7 @@ module MainGuy
   class SubGuy
     class SubSubGuy
       def initialize(name, *args)
+        # initialize is the constructor function in Ruby
         @name = name # @ variables are instance level, means rails will make them available to the view
         @args = args # Without it, they're called and considered, local variables.
             # validate_args  <-- if you wanted to call a function this way, you could
@@ -13,4 +14,4 @@ module MainGuy
   end
 end
 
-# Times practiced: 2
+# Times practiced: 3
