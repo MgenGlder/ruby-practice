@@ -20,4 +20,4 @@ minimum = if x < y
 other_minimum = if x < y then x else y end
 
 other_other_minimum = if x > y then y end
-# Times practiced: 3
+# Times practiced: 4

@@ -5,6 +5,7 @@ h = {
 
 h[:one]         # Regular accessor
 h[:three] = 3   # Add a new key
+# Iterating through a hashmap
 h.each do |key, value|
     print "#{value}:#{key}; " # Note variables substituted into string.
 end
@@ -20,4 +21,4 @@ t = Thread.new do
     end
 end
 
-# Times practiced: 1
+# Times practiced: 2
