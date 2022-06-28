@@ -1,4 +1,4 @@
-3.times{ print "Ruby!" }
+3.times { print "Ruby!" }
 
 # In order to run ruby commands: ruby times.rb
 

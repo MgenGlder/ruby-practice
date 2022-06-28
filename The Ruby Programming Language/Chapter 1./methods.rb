@@ -3,4 +3,4 @@ def square(x)       # Def is used to create a function
 end
 
 # These types of global methods are called singletonmethods
-# Times practiced: 1
+# Times practiced: 2
