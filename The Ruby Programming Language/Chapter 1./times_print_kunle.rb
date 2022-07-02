@@ -18,4 +18,4 @@ end
 
 # You can use brackets technically, it's just not really that recommended.
 
-# Times practiced: 1
+# Times practiced: 2

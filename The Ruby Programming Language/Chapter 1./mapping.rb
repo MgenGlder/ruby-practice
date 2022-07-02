@@ -1,6 +1,7 @@
 class String
     def toJadenCase
       splitArray = self.split
+      # Self represents this object, it's a self reference
       splitArray.map! { |item|
         item.capitalize
       }
@@ -22,4 +23,4 @@ class String2
 end
 
 # Note: you don't need 'self' all the time, map can be passed & as a proc
-# Times practiced: 3
+# Times practiced: 4
