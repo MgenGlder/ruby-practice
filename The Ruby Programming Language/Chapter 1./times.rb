@@ -4,4 +4,4 @@
 
 1.upto(8) { |x| print x } # Invoking methods on integers.
 
-# Times practiced: 1
+# Times practiced: 2
