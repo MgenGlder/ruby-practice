@@ -20,6 +20,10 @@ end
   print x
 }
 
+7.times { |x| 
+  print 'some other things'
+}
+
 # You can use brackets technically, it's just not really that recommended.
 
 # Times practiced: 2
