@@ -13,3 +13,12 @@
 $salutation = 'hello'
 "#$salutation world"
 
+sprintf("pi is about %.4f", Math::PI)   # Returns "pi is about 3.1416"
+
+"pi is about %.4f" % Math::PI           # Same as example above
+"%s: %f" % ["pi", Math::PI]             # Array on rightyhand side for multiple args
+
+# Double-quoted string literals may span multiple lines, and line terminators become part of the string literal, unless escaped with a backslash.
+"This string literal
+has two lines \
+but is written on 3"
